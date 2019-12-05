@@ -107,15 +107,15 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="Xhz-xD-cl7">
-                                                    <rect key="frame" x="16" y="11" width="343" height="228"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Xhz-xD-cl7" secondAttribute="bottom" id="81i-IT-0KO"/>
-                                                <constraint firstItem="Xhz-xD-cl7" firstAttribute="leading" secondItem="kDb-5h-blk" secondAttribute="leadingMargin" id="BzC-VS-JwC"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Xhz-xD-cl7" secondAttribute="trailing" id="ISX-eF-YFC"/>
-                                                <constraint firstItem="Xhz-xD-cl7" firstAttribute="top" secondItem="kDb-5h-blk" secondAttribute="topMargin" id="VAc-4i-goV"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Xhz-xD-cl7" secondAttribute="bottom" constant="-10.999999999999943" id="81i-IT-0KO"/>
+                                                <constraint firstItem="Xhz-xD-cl7" firstAttribute="leading" secondItem="kDb-5h-blk" secondAttribute="leadingMargin" constant="-16" id="BzC-VS-JwC"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Xhz-xD-cl7" secondAttribute="trailing" constant="-16" id="ISX-eF-YFC"/>
+                                                <constraint firstItem="Xhz-xD-cl7" firstAttribute="top" secondItem="kDb-5h-blk" secondAttribute="topMargin" constant="-11" id="VAc-4i-goV"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -240,11 +240,14 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="WaI-qG-umR"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageOfPlace" destination="Xhz-xD-cl7" id="A7m-Ah-mtF"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dz1-xL-jgW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="XhA-bf-cUO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1954" y="91"/>
+            <point key="canvasLocation" x="1952.8" y="90.404797601199405"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Im1-xN-JTI">
