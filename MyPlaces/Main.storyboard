@@ -107,7 +107,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="Xhz-xD-cl7">
-                                                    <rect key="frame" x="16" y="11" width="343" height="228.00000000000006"/>
+                                                    <rect key="frame" x="16" y="11" width="343" height="228"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
